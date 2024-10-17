@@ -68,3 +68,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+filemanager-frontend/          # React 项目目录
+│
+├── public/                    # 静态文件和HTML入口
+│   └── index.html
+│
+├── src/                       # 源代码目录
+│   ├── components/            # React 组件
+│   │   ├── NavBar.js
+│   │   ├── LoginComponent.js
+│   │   ├── DashboardComponent.js
+│   │   ├── SiteManagerComponent.js
+│   │   ├── ItemManagerComponent.js
+│   │   ├── ProcessManagerComponent.js
+│   │   └── FileManagerComponent.js
+│   │
+│   ├── api/                   # API调用相关
+│   │   └── api.js
+│   │
+│   ├── App.js                 # 根组件
+│   ├── App.css                # 根组件样式
+│   ├── index.js               # 入口文件
+│   ├── index.css              # 全局样式
+│   ├── setupTests.js          # 测试设置
+│   │
+│   ├── store/                 # Redux store (如果使用Redux)
+│   │   ├── store.js
+│   │   └── reducers.js
+│   │
+│   └── routes/                # 路由配置
+│       └── Routes.js
+│
+├── package.json               # 项目依赖和配置
+├── .gitignore                 # Git忽略文件
+└── README.md                  # 项目文档
